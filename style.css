@@ -2,26 +2,110 @@
     border-style: solid;
 }
 
+body > header, main, footer {
+    min-width: 1000px;
+    margin-left: 225px;
+    margin-right:225px;
+}
+
 #namelogoslogan > article {
     display: inline-block;
+    margin-top: 15px;
+}
+
+#headerlogo {
+    padding-right: 30px;
+    position: relative;
+    bottom: 15px;
+}
+
+#delicious {
+    padding-top: 15px;
+}
+
+#headerlogo > img {
+    width: 170%;
 }
 
 header > article {
     display: inline-block;
 }
 
-header > div {
-    height: 15px;
+#headericons {
+    float: right;
+    position: relative;
+    top: 50px;
 }
 
 #headericons > article {
     display: inline-block;
 }
 
+div {
+    height: 15px;
+}
+
+#maintitle {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+.mainimages {
+    width: 100%;
+}
+
 #chocolatepizza > article {
     display: inline-block;
 }
 
+#printbutton {
+    float: right;
+}
+
 .print {
     display: inline-block;
+}
+
+.instructions {
+    text-indent: 30px;
+}
+
+#author > article {
+    display: inline-block;
+}
+
+#sharebutton {
+    float: right;
+    position: relative;
+    top: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+#footerlogo > article {
+    display: inline-block;
+}
+
+#leftline {
+    float: left;
+    width: 47%;
+    margin-right: 0.7%;
+    position: relative;
+    top: 12px;
+    margin-left: auto;
+}
+
+#rightline {
+    float: right;
+    width: 49.2%;
+    position: relative;
+    top: 12px;
+    margin-right: auto;
+}
+
+#copyrightpublish > p {
+    text-align: center;
+}
+
+footer {
+    margin-bottom: 60px;
 }
