@@ -1,0 +1,27 @@
+* {
+    border-style: solid;
+}
+
+#namelogoslogan > article {
+    display: inline-block;
+}
+
+header > article {
+    display: inline-block;
+}
+
+header > div {
+    height: 15px;
+}
+
+#headericons > article {
+    display: inline-block;
+}
+
+#chocolatepizza > article {
+    display: inline-block;
+}
+
+.print {
+    display: inline-block;
+}
