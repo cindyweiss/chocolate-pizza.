@@ -1,0 +1,148 @@
+body > header, main, footer {
+    min-width: 1000px;
+    margin-left: 225px;
+    margin-right: 225px;
+}
+
+#namelogoslogan > article {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+#headerlogo {
+    padding-right: 30px;
+    position: relative;
+    bottom: 15px;
+}
+
+#delicious {
+    position: relative;
+    top: 7px;
+}
+
+#delicious > p {
+    position: relative;
+    bottom: 23px;
+}
+
+#headerlogo > img {
+    width: 190%;
+}
+
+header > article {
+    display: inline-block;
+}
+
+#headericons {
+    float: right;
+    position: relative;
+    top: 50px;
+}
+
+#leftheadericons {
+    padding-right: 5px;
+}
+
+#headericons > article {
+    display: inline-block;
+}
+
+div {
+    height: 21px;
+    background-color: lightgray;
+}
+
+#maintitle {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 45pt;
+    position: relative;
+    top: 25px;
+}
+
+#postdate {
+    position: relative;
+    bottom: 40px;
+}
+
+.mainimages {
+    width: 100%;
+}
+
+#chocolatepizza > article {
+    display: inline-block;
+}
+
+#printbutton {
+    float: right;
+    position: relative;
+    top: 125px;
+}
+
+#printbutton > img {
+    width: 20px;
+}
+
+.print {
+    display: inline-block;
+}
+
+.instructions {
+    text-indent: 50px;
+    font-size: 20pt;
+}
+
+#shoppinglist {
+    padding-bottom: 60px;
+}
+
+#author {
+    margin-top: 30px;
+}
+
+#author > article {
+    display: inline-block;
+}
+
+#bio {
+    font-size: 110%;
+}
+
+#sharebutton {
+    float: right;
+    position: relative;
+    top: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #a60;
+    color: white;
+}
+
+#footerlogo > article {
+    display: inline-block;
+}
+
+#leftline {
+    float: left;
+    width: 47%;
+    margin-right: 0.7%;
+    position: relative;
+    top: 12px;
+    margin-left: auto;
+}
+
+#rightline {
+    float: right;
+    width: 48.3%;
+    max-width: 100%;
+    position: relative;
+    top: 12px;
+    margin-right: auto;
+}
+
+#copyrightpublish > p {
+    text-align: center;
+}
+
+footer {
+    margin-bottom: 60px;
+}
