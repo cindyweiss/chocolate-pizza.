@@ -104,7 +104,7 @@ div {
 }
 
 #bio {
-    font-size: 18pt;
+    font-size: 110%;
 }
 
 #sharebutton {
@@ -123,7 +123,7 @@ div {
 
 #leftline {
     float: left;
-    width: 48%;
+    width: 47%;
     margin-right: 0.7%;
     position: relative;
     top: 12px;
@@ -132,7 +132,7 @@ div {
 
 #rightline {
     float: right;
-    width: 48%;
+    width: 48.3%;
     max-width: 100%;
     position: relative;
     top: 12px;
