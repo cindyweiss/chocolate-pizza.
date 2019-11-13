@@ -1,11 +1,7 @@
-* {
-    border-style: solid;
-}
-
 body > header, main, footer {
     min-width: 1000px;
     margin-left: 225px;
-    margin-right:225px;
+    margin-right: 225px;
 }
 
 #namelogoslogan > article {
@@ -20,11 +16,17 @@ body > header, main, footer {
 }
 
 #delicious {
-    padding-top: 15px;
+    position: relative;
+    top: 7px;
+}
+
+#delicious > p {
+    position: relative;
+    bottom: 23px;
 }
 
 #headerlogo > img {
-    width: 170%;
+    width: 190%;
 }
 
 header > article {
@@ -37,16 +39,29 @@ header > article {
     top: 50px;
 }
 
+#leftheadericons {
+    padding-right: 5px;
+}
+
 #headericons > article {
     display: inline-block;
 }
 
 div {
-    height: 15px;
+    height: 21px;
+    background-color: lightgray;
 }
 
 #maintitle {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 45pt;
+    position: relative;
+    top: 25px;
+}
+
+#postdate {
+    position: relative;
+    bottom: 40px;
 }
 
 .mainimages {
@@ -59,6 +74,12 @@ div {
 
 #printbutton {
     float: right;
+    position: relative;
+    top: 125px;
+}
+
+#printbutton > img {
+    width: 20px;
 }
 
 .print {
@@ -66,11 +87,24 @@ div {
 }
 
 .instructions {
-    text-indent: 30px;
+    text-indent: 50px;
+    font-size: 20pt;
+}
+
+#shoppinglist {
+    padding-bottom: 60px;
+}
+
+#author {
+    margin-top: 30px;
 }
 
 #author > article {
     display: inline-block;
+}
+
+#bio {
+    font-size: 18pt;
 }
 
 #sharebutton {
@@ -79,6 +113,8 @@ div {
     top: 25px;
     padding-left: 35px;
     padding-right: 35px;
+    background-color: #a60;
+    color: white;
 }
 
 #footerlogo > article {
@@ -87,7 +123,7 @@ div {
 
 #leftline {
     float: left;
-    width: 47%;
+    width: 48%;
     margin-right: 0.7%;
     position: relative;
     top: 12px;
@@ -96,7 +132,8 @@ div {
 
 #rightline {
     float: right;
-    width: 49.2%;
+    width: 48%;
+    max-width: 100%;
     position: relative;
     top: 12px;
     margin-right: auto;
